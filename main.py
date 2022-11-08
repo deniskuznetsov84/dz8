@@ -9,3 +9,5 @@ d2 = my_dict({'e': 3, 'r': 'ups'})
 
 def pal(word):
     return word == word[::-1]
+
+print(pal('шалаш'))
