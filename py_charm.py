@@ -18,3 +18,5 @@ def season(month):
     else:
         return 'Номер місяця повинен бути цілим числом від 1 до 12'
 
+month = 7
+print(season(month))
